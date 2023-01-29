@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;1,400&family=Poppins:ital,wght@0,500;1,400;1,500&family=Work+Sans:wght@400;500&display=swap');
+/* commun style for full website  */
+body{
+  font-family: 'Poppins' sans-serif;
+  background: rgba(255, 144, 14, 0.1);
+
+
+
+}
+/* header section design here  */
+#header{
+    background: rgba(255, 144, 14, 0.1);
+    height: auto;
+}
+/* website container div design here  */
+.container{
+   width: 100%;
+   justify-content: center;
+ 
+}
+.menu-iteam{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-right: 10%;
+    padding-left: 10%;
+}
+.logo{
+    font-size: 4vw;
+}
+.menu-nav{
+    display: flex;
+}
+.menu-nav li{
+    list-style: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    
+}
+.menu-nav li a{
+        text-decoration: none;
+        color: #000;
+}
+.info{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.mian-banner{
+ text-align: center;
+}
+.banner{
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+}
+.main-title{
+  font-size: 3vw;
+}
+.description{
+   font-size: 1.5vw;
+   justify-content: center;
+}
+.paimary{
+ padding: 10px 14px;
+ border-radius: 5px;
+ border: none;
+ background: #FF900E;
+ color: #ffff;
+
+}
+/* header section end here  */
+/* main section start here  */
+#main{
+  padding-top: 40px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.future-box{
+    display: flex;
+    grid-column-gap: 20px;
+    align-items: center;
+    
+}
+.future-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.0vw;
+}
+.future-img img{
+    width: 100%;
+}
+.futures-title{
+    font-size: 3vw;
+    color: #727272;
+}
+.first-span{
+    color: #131313;
+}
+
+.secound-span{
+    color: #FF900E;
+}
+/* futures container end here  */
+/*  futures planing container star her  */
+.planig-box{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding-top: 40px;
+}
+.planing-info{
+    
+}
+.planig-title{
+
+}
+.mainplan-title{
+
+}
+.plan-span{
+  width: 3px;
+  background-color: #FF900E;
+  height: 10px;
+}
+.planing-title{
+
+}
+.planing-caption{
+
+}
+.planing-imgbtn{
+   background-image: url('images/architect.png');
+
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: 90%;
+    
+}
+
+@media screen and (max-width:576px){
+
+    .menu-nav{
+        display: flex;
+        flex-direction: column;
+    }
+    .menu-nav li{
+      
+        padding: 5px 10px;
+        font-size: 10px;
+        
+    }
+    .future-box{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        
+    }
+    .future-description{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+}
